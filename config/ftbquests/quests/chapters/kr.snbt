@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kr"
+	group: "274B335A1511858A"
+	id: "4C9197EBDBD14EAD"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63F70BE3682C2700"]
+			hide_until_deps_complete: true
+			id: "60C0685CA0459AF4"
+			tasks: [{
+				id: "73206D545D7C7DF4"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60C0685CA0459AF4"]
+			id: "60752169DA805C07"
+			tasks: [{
+				id: "2E28D69D59D8DB12"
+				item: { count: 1, id: "ae2omnicells:spent_nuclear_waste_cell" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60C0685CA0459AF4"]
+			id: "407C597C86AF93E5"
+			tasks: [{
+				id: "06BB8992586DDB56"
+				item: { count: 1, id: "avaritia:infinity_totem" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "4ACBB16F33416394"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "71F59AF8DE19A213", item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "packaged_faa:fluid_aureal" }] } }, count: 1, id: "mekanism:creative_fluid_tank" } }
+		{ id: "3ADFD7FE3422F4E8", item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "packaged_faa:fluid_souls" }] } }, count: 1, id: "mekanism:creative_fluid_tank" } }
+		{ id: "66C1C4670E62136A", item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "packaged_faa:fluid_blood" }] } }, count: 1, id: "mekanism:creative_fluid_tank" } }
+		{ id: "2B3C62EFC7B200E6", item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "packaged_faa:fluid_experience" }] } }, count: 1, id: "mekanism:creative_fluid_tank" } }
+	]
+}

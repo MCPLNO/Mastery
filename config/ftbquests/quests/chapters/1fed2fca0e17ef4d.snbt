@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1fed2fca0e17ef4d"
+	group: "1A3391750B4C5BE7"
+	id: "1FED2FCA0E17EF4D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["54EF2AA230E2B5F5"]
+		id: "63F70BE3682C2700"
+		rewards: [{
+			count: 2
+			id: "6C48C7AA1FA5CE74"
+			item: {
+				count: 1
+				id: "minecraft:oak_planks"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			count: 8L
+			id: "3DC77E3BC251FF32"
+			item: { count: 1, id: "minecraft:oak_planks" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

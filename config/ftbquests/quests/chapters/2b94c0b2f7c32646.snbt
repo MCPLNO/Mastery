@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2b94c0b2f7c32646"
+	group: ""
+	id: "2B94C0B2F7C32646"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "062F1A6F5182996B"
+			rewards: [
+				{
+					id: "77FE1CDED5973372"
+					item: {
+						count: 1
+						id: "avaritia:infinity_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "00534805DDFEE948"
+					item: {
+						count: 1
+						id: "simplemagnets:advancedmagnet"
+					}
+					type: "item"
+				}
+				{
+					id: "412340C8F77A74A5"
+					item: {
+						count: 1
+						id: "mekanism:configurator"
+					}
+					type: "item"
+				}
+				{
+					id: "7285B7AE8622AE9F"
+					item: {
+						count: 1
+						id: "tiab:time_in_a_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4167F3901D019F45"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["062F1A6F5182996B"]
+			id: "684E0199E8D057BE"
+			shape: "diamond"
+			tasks: [{
+				id: "1A4EF34EE7FAE786"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["062F1A6F5182996B"]
+			id: "4F992D1603DEF53A"
+			shape: "diamond"
+			tasks: [{
+				id: "56C4DF0CD837D2A9"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["062F1A6F5182996B"]
+			id: "2CF6DFDC5A295929"
+			rewards: [{
+				id: "035D8585830A64DA"
+				item: {
+					components: {
+						"!minecraft:damage": { }
+						"!minecraft:max_damage": { }
+						"forbidden_arcanus:modifier": "forbidden_arcanus:eternal"
+						"minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.masterycore.ultimate_tool\"}],\"translate\":\"modifier.forbidden_arcanus.eternal\"}"
+					}
+					count: 1
+					id: "masterycore:ultimate_tool"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "078E8D5C496F8224"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["062F1A6F5182996B"]
+			id: "697C19CF670EE37F"
+			shape: "diamond"
+			tasks: [{
+				id: "44ACE1520F1AE57B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+}

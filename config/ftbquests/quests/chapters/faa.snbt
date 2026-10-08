@@ -1,0 +1,617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "faa"
+	group: "0947B4842269D4B3"
+	id: "7A19E0A2E0D273BE"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"002750E83545FA1D"
+				"737E252AEB713647"
+			]
+			id: "1BF441093C4A50E3"
+			rewards: [{
+				id: "018314F7A8C0B47E"
+				item: {
+					count: 1
+					id: "occultism:ritual_satchel_t2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3DE067C148349A"
+				item: { count: 1, id: "occultism:otherrock" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF441093C4A50E3"]
+			id: "7B38267C828D0B28"
+			tasks: [{
+				id: "7EB93EB7DF549FDE"
+				item: { count: 1, id: "occultism:burnt_otherrock" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B38267C828D0B28"]
+			id: "278E61BAE626BE3D"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "3E6ACFB5CEF0C062"
+				item: {
+					count: 1
+					id: "occultism:large_candle_white"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DA9B8CA412BEC14"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B38267C828D0B28"]
+			id: "50EF1052D1416342"
+			tasks: [{
+				id: "60879F3925907DE2"
+				item: { count: 1, id: "forbidden_arcanus:arcane_crystal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50EF1052D1416342"]
+			id: "1964FACF70C2B441"
+			rewards: [{
+				count: 128
+				id: "36D2D293DE48A205"
+				item: {
+					count: 1
+					id: "minecraft:melon_slice"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0611FD5D4BCD9E77"
+					item: { components: { "packaged_faa:level_forge": { level: 2 } }, count: 1, id: "packaged_faa:hephaestus_packaged" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CCD483A4317F5A1"
+					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_2" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1964FACF70C2B441"
+				"19D9E76ED68F95F1"
+			]
+			id: "4606427E3F2ACDF7"
+			tasks: [{
+				id: "096E4E0A1BB9C43A"
+				item: { count: 1, id: "occultism:chalk_void" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1964FACF70C2B441"
+				"718B4981AA9DF327"
+			]
+			id: "19D9E76ED68F95F1"
+			rewards: [{
+				id: "43218DA8F0106AFD"
+				item: {
+					count: 1
+					id: "occultism:celestial_chalice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0283BFF4CFB1B907"
+				item: { count: 1, id: "mekanism_extras:alloy_radiance" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19D9E76ED68F95F1"
+				"4606427E3F2ACDF7"
+			]
+			id: "3A3D0A64CC42353B"
+			rewards: [
+				{
+					count: 64
+					id: "4B4B1CEFCE2D2F0E"
+					item: {
+						count: 1
+						id: "create:tree_fertilizer"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6A891FE8E64621FE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "ae2ltpp:packaged_pattern_provider"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D8460E4AA67BB4C"
+					item: {
+						components: {
+							"ftbquests:missing_item": "ae2ltpp:occultism_ritual_packaged_core"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7677CE2397BAE0B9"
+					item: { count: 1, id: "occultism:otherworld_sapling" }
+					type: "item"
+				}
+				{
+					id: "3C16345318483889"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A3D0A64CC42353B"]
+			id: "154DFE297F5BF56F"
+			tasks: [{
+				id: "42F03AE0BD73AA45"
+				item: { count: 1, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["154DFE297F5BF56F"]
+			id: "2C990AD4D99498DF"
+			rewards: [
+				{
+					count: 64
+					id: "2617EBC08E8B269B"
+					item: {
+						count: 1
+						id: "pipez:item_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B222494FC93625A"
+					item: {
+						count: 1
+						id: "pipez_optimizer:stellar_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07237600413580E6"
+				item: { count: 1, id: "extendedcrafting:compressor" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C990AD4D99498DF"]
+			id: "47681EC27C8E8973"
+			rewards: [{
+				count: 64
+				id: "2999507AB5BB39EA"
+				item: {
+					count: 1
+					id: "avaritia:diamond_lattice_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "355DACC0D5C4976D"
+				item: { count: 1, id: "avaritia:diamond_lattice" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "718B4981AA9DF327"
+			tasks: [{
+				id: "4FE29BC101F5FC47"
+				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47681EC27C8E8973"]
+			id: "1B298B6235A4F7FF"
+			tasks: [{
+				id: "305616DD7D2A63A9"
+				item: { count: 1, id: "avaritia:diamond_lattice_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B298B6235A4F7FF"]
+			id: "07303F25CD5953C3"
+			tasks: [{
+				id: "4E9AB004679F1EAF"
+				item: { count: 1, id: "occultism:otherworld_ashes" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07303F25CD5953C3"]
+			id: "49C17BFA388F7BEA"
+			tasks: [{
+				id: "10E0871A3396150E"
+				item: { count: 1, id: "occultism:chalk_white_impure" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C17BFA388F7BEA"]
+			id: "06BEE60B29730CD6"
+			rewards: [{
+				id: "727EB616BEB7A827"
+				item: {
+					components: {
+						"ftbquests:missing_item": "ae2ltpp:ec_ultimate_table_packaged_core"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01FC2E00B3E13464"
+				item: { count: 1, id: "extendedcrafting:basic_table" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06BEE60B29730CD6"]
+			id: "689B168B842272C6"
+			tasks: [
+				{
+					id: "08286AC7CCD01579"
+					item: { count: 1, id: "justdirethings:gooblock_tier1" }
+					type: "item"
+				}
+				{
+					id: "58B5E57A0740B002"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["689B168B842272C6"]
+			id: "76F5315E8F620BBB"
+			tasks: [{
+				id: "1BCAFE8C13B38286"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76F5315E8F620BBB"]
+			id: "28CDD450DEAF8261"
+			rewards: [{
+				id: "41FBF2D2FC48B2F5"
+				item: {
+					components: {
+						"ftbquests:missing_item": "ae2ltpp:aa_reconstructor_packaged_core"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A69814ACEAA52A"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28CDD450DEAF8261"]
+			id: "676B5801ECC6E709"
+			tasks: [{
+				id: "0F77E114F5483474"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"676B5801ECC6E709"
+				"525E2D8ADCE2DAC5"
+			]
+			id: "5851F910BEC41734"
+			tasks: [{
+				id: "61F2C1F3B42F5D45"
+				item: { count: 1, id: "ars_nouveau:glyph_crush" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A3D0A64CC42353B"]
+			id: "27DB3545704C4997"
+			tasks: [{
+				id: "735078C94FDC420B"
+				item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27DB3545704C4997"]
+			id: "0DA9E4EDBF80C72E"
+			tasks: [{
+				id: "0341765D7002AEE0"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0DA9E4EDBF80C72E"]
+			id: "3E1AA2AF190FBDAD"
+			tasks: [{
+				id: "5662153CEB5DB886"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E1AA2AF190FBDAD"]
+			id: "525E2D8ADCE2DAC5"
+			tasks: [{
+				id: "295CBFE67CCA7A5C"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5851F910BEC41734"]
+			id: "683DE7A1DD737EBB"
+			rewards: [{
+				count: 10
+				id: "7795A7AFC4D391D6"
+				item: {
+					count: 1
+					id: "ae2omnicells:singularity_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43B24D6499C7BCF6"
+					item: { count: 1, id: "ae2:singularity" }
+					type: "item"
+				}
+				{
+					id: "51E2C6003B8BD101"
+					item: { count: 1, id: "ae2omnicells:singularity_block" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["683DE7A1DD737EBB"]
+			icon: {
+				id: "avaritia:diamond_lattice_block"
+			}
+			id: "5290582A3B583B32"
+			rewards: [{
+				id: "2B758D3B6CD7A445"
+				item: {
+					components: {
+						"explorerscompass:compass_state": 2
+						"explorerscompass:display_coords": 1b
+						"explorerscompass:found_x": 400
+						"explorerscompass:found_z": 112
+						"explorerscompass:is_group": 0b
+						"explorerscompass:prev_pos": [[I;
+							400
+							0
+							112
+						]]
+						"explorerscompass:samples": 1
+						"explorerscompass:search_radius": 0
+						"explorerscompass:structure_id": "masterycore:ae"
+					}
+					count: 1
+					id: "explorerscompass:explorerscompass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "masterycore:crystal_world"
+				icon: {
+					id: "avaritia:crystal_matrix"
+				}
+				id: "01CB4F9087CC4E76"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5290582A3B583B32"]
+			id: "5BCFCD6BB6275098"
+			tasks: [{
+				icon: {
+					id: "ae2:creative_energy_cell"
+				}
+				id: "30E937703491A919"
+				structure: "masterycore:ae"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BCFCD6BB6275098"]
+			id: "4ACBDCE4BED39D1F"
+			tasks: [{
+				id: "4355C963150CD495"
+				item: { count: 1, id: "neoecoae:integrated_working_station" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4ACBDCE4BED39D1F"]
+			id: "36E2E63C99EBA23D"
+			tasks: [{
+				id: "7FF4EEC8FF3EEDF7"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["36E2E63C99EBA23D"]
+			id: "1F869EF08755373D"
+			tasks: [
+				{
+					id: "1C22C14F2DCDACD4"
+					item: { count: 1, id: "mysticalagriculture:aluminum_seeds" }
+					type: "item"
+				}
+				{
+					id: "3B4DC683C3DF575A"
+					item: { count: 1, id: "neoecoae:energized_crystal" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4ACBDCE4BED39D1F"]
+			id: "34FF493D42626AD9"
+			tasks: [{
+				id: "56204113DF72D913"
+				item: { count: 1, id: "mekmm:recycler" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F869EF08755373D"]
+			id: "35FD605E8848D404"
+			rewards: [{
+				id: "08EF1DB4F1270EAF"
+				item: {
+					components: {
+						"mekanism:fluids": {
+							fluid_tanks: [{
+								amount: 2147483647
+								id: "ad_astra:fuel"
+							}]
+						}
+					}
+					count: 1
+					id: "mekanism:creative_fluid_tank"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0D7DECA6F86DD8BF"
+				item: { count: 1, id: "ad_astra:nasa_workbench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F869EF08755373D"]
+			id: "37EA44D38CAEA66B"
+			tasks: [{
+				id: "5D27B11FDA307625"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+	]
+}

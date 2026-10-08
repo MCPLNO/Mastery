@@ -1,0 +1,75 @@
+{
+	chapter.15FE667485C69645.title: "Next Time"
+	chapter.19C98C6F41AA6B86.chapter_subtitle: ["&4The quests in this chapter will severely affect your gameplay experience. Consider carefully."]
+	chapter.19C98C6F41AA6B86.title: "&4Easy Mode"
+	chapter.1FED2FCA0E17EF4D.title: "Let's End This!"
+	chapter.2AFB656E9F086A7B.title: "Nuclear Power"
+	chapter.2B94C0B2F7C32646.title: "Welcome"
+	chapter.74E269080F2D4765.title: "Chemical Engineering"
+	chapter.7A19E0A2E0D273BE.title: "Reboot"
+	chapter_group.0947B4842269D4B3.title: "Chapters"
+	chapter_group.1A3391750B4C5BE7.title: "That's It?"
+	file.0000000000000001.title: "MasteryAE"
+	quest.062F1A6F5182996B.quest_subtitle: "Not quite"
+	quest.062F1A6F5182996B.title: "Welcome"
+	quest.065AC506567CB1A2.quest_desc: ["It's almost over"]
+	quest.070D7375CE8FDB5D.title: "Spawn"
+	quest.1849E1F83DE342A5.quest_subtitle: "&4This action cannot be undone!!!"
+	quest.1849E1F83DE342A5.title: "&4Right?"
+	quest.18695EAB7669C937.quest_desc: ["&4ERROR: Data corrupted. Are you sure you want to proceed?"]
+	quest.18695EAB7669C937.title: "&4Critical Error. Are you really sure?"
+	quest.1964FACF70C2B441.quest_desc: ["Tips: Use melon slices to make biomass. Biomass + Sand = Dirt"]
+	quest.19D9E76ED68F95F1.quest_desc: ["The ritual's central item can be crafted from white concrete"]
+	quest.1F869EF08755373D.quest_desc: ["The beginning of Neo ECO"]
+	quest.262CFD73B7BE0297.quest_desc: ["Lightning__Tech!"]
+	quest.2C990AD4D99498DF.quest_desc: ["Your transfer rate isn't fast enough, is it?"]
+	quest.2CF6DFDC5A295929.quest_subtitle: "Not so omni"
+	quest.2CF6DFDC5A295929.title: "Omnitool"
+	quest.2D6117EC0408E436.quest_desc: [
+		"&eInfinite Empty Pattern&f can be thought of as an infinite blank pattern"
+		"Not supported by AE2 Utility"
+		"&4Note: The vanilla Blank Pattern recipe has been removed. It can only be obtained via the Infinite Blank Pattern component."
+		"As for the CPU, just make do for now. A new one will come later."
+	]
+	quest.34FF493D42626AD9.quest_desc: ["I know what you need to simplify"]
+	quest.35FD605E8848D404.quest_desc: ["Fly me to the Moon"]
+	quest.480FA83CA621F4EE.quest_desc: ["You probably can't craft the ME Drive yet. Attach a Storage Bus to a QIO Dashboard and you can access items in the QIO Drive from your AE network."]
+	quest.4ACBDCE4BED39D1F.quest_desc: [""]
+	quest.4C80E7570B324999.quest_desc: [""]
+	quest.4ED8DDC4D31B2A3B.quest_desc: ["Return to the Source"]
+	quest.4F992D1603DEF53A.quest_desc: [
+		"DC: In preparation"
+		"QQ: None"
+	]
+	quest.4F992D1603DEF53A.title: "Communication Channel"
+	quest.5290582A3B583B32.quest_desc: ["Search \"Ae\" with the Structure Compass. That structure contains a \"Mysterious Block\" and a \"Creative Energy Cell\"."]
+	quest.5290582A3B583B32.title: "Visit the Crystal World"
+	quest.58FA7C82CF350D3D.title: "&4Do you really want to continue?"
+	quest.59C414B6EE994D8B.quest_desc: ["Alloys can be used to produce gas for combustion"]
+	quest.5BCFCD6BB6275098.quest_desc: ["Did you just go Creative, you little...?"]
+	quest.5BCFCD6BB6275098.quest_subtitle: "But why is there a Creative Energy Cell?"
+	quest.5BCFCD6BB6275098.title: "Ancient Remains"
+	quest.63F70BE3682C2700.quest_desc: ["You're Home"]
+	quest.683DE7A1DD737EBB.quest_desc: ["Build a Nether Portal shape out of Singularity Blocks, then right-click with a Singularity to activate it and enter the Crystal Dimension."]
+	quest.683DE7A1DD737EBB.quest_subtitle: "A tribute to Create: Above and Beyond"
+	quest.684E0199E8D057BE.quest_desc: [
+		"Thanks to all my followers on BiliBili who've been with me along the way"
+		"[ { \"text\": \"My BiliBili page\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://space.bilibili.com/3461574498977936?spm_id_from=333.1007.0.0\" } } ]"
+	]
+	quest.684E0199E8D057BE.title: "Credits"
+	quest.697C19CF670EE37F.quest_desc: [""]
+	quest.697C19CF670EE37F.quest_subtitle: "It's an expert pack (maybe)"
+	quest.697C19CF670EE37F.title: "About Difficulty"
+	quest.7BEC1D83AA784B91.quest_desc: ["Used to multiply concrete"]
+	quest.7EE9012FF2C04004.quest_desc: ["Netherite content: 0"]
+	quest.7F7F39749E990B1B.quest_desc: ["A recipe has been added for the Certus Quartz Cluster. See JEI for details."]
+	task.01CB4F9087CC4E76.title: "Visit the Crystal World"
+	task.1A4EF34EE7FAE786.title: "Credits"
+	task.2767BB80152FC19C.title: "&4Yes, I'm"
+	task.30E937703491A919.title: "Ancient Remains"
+	task.402D8B4F76BDC11A.title: "That's enough!"
+	task.4A16265DDA138918.title: "That's enough"
+	task.517F93216A1E8404.title: "&4ERROR"
+	task.55B89823BF4EFAB2.title: "Observe the Forge"
+	task.616EFC324871448A.title: "&4Do you really want to continue?"
+}

@@ -1,0 +1,89 @@
+{
+	chapter.15FE667485C69645.title: "下次"
+	chapter.19C98C6F41AA6B86.chapter_subtitle: ["&4此章节任务会严重影响游戏体验，请慎重考虑"]
+	chapter.19C98C6F41AA6B86.title: "&4简单模式"
+	chapter.1FED2FCA0E17EF4D.title: "结束吧!"
+	chapter.2AFB656E9F086A7B.title: "核电"
+	chapter.2B94C0B2F7C32646.title: "欢迎"
+	chapter.3185DEE3773127E5.title: "注意事项"
+	chapter.4C9197EBDBD14EAD.chapter_subtitle: [
+		"未完成"
+		"&k未知"
+	]
+	chapter.4C9197EBDBD14EAD.title: "&z&kwhy&r "
+	chapter.74E269080F2D4765.title: "化工"
+	chapter.7A19E0A2E0D273BE.title: "重启"
+	chapter_group.0947B4842269D4B3.title: "章节"
+	chapter_group.1A3391750B4C5BE7.title: "就这样?"
+	chapter_group.274B335A1511858A.title: "&k还没结束呢"
+	file.0000000000000001.title: "精通AE"
+	quest.062F1A6F5182996B.quest_subtitle: "并非"
+	quest.062F1A6F5182996B.title: "欢迎"
+	quest.065AC506567CB1A2.quest_desc: ["就要结束了"]
+	quest.070D7375CE8FDB5D.title: "出生"
+	quest.1849E1F83DE342A5.quest_subtitle: "&4此操作无法撤回!!!"
+	quest.1849E1F83DE342A5.title: "&4Right?"
+	quest.18695EAB7669C937.quest_desc: ["&4ERROR:数据损坏，你真的要确定吗?"]
+	quest.18695EAB7669C937.title: "&4严重错误,真的确定吗?"
+	quest.1964FACF70C2B441.quest_desc: ["Tips:使用西瓜片制作生物质，使用生物质+沙子=泥土"]
+	quest.19D9E76ED68F95F1.quest_desc: ["仪式用的中心物品可以使用白色混凝土合成"]
+	quest.1F869EF08755373D.quest_desc: ["ECO之开端"]
+	quest.262CFD73B7BE0297.quest_desc: ["闪电__科技!"]
+	quest.2C990AD4D99498DF.quest_desc: ["你的传输速率不够快对不对?"]
+	quest.2CF6DFDC5A295929.quest_subtitle: "并非全能"
+	quest.2CF6DFDC5A295929.title: "全能工具"
+	quest.2D6117EC0408E436.quest_desc: [
+		"&eInfinite Empty Pattern&f可以视为无限的空白样板"
+		"不支持AE2实用"
+		"&4注意：原版空白样板配方已移除，仅能通过无限空白样板元件获取"
+		"关于CPU，先用着吧，到时候会有新的"
+	]
+	quest.34FF493D42626AD9.quest_desc: ["我知道你需要简化什么"]
+	quest.35FD605E8848D404.quest_desc: ["飞向月球"]
+	quest.480FA83CA621F4EE.quest_desc: ["ME驱动器的配方你现在应该做不出来，用存储总线贴着QIO仪表盘就能在AE网络里访问QIO驱动器里的物品"]
+	quest.4ACBDCE4BED39D1F.quest_desc: [""]
+	quest.4C80E7570B324999.quest_desc: [""]
+	quest.4ED8DDC4D31B2A3B.quest_desc: ["回归本源"]
+	quest.4F992D1603DEF53A.quest_desc: [
+		"DC:筹办中"
+		"QQ:无"
+	]
+	quest.4F992D1603DEF53A.title: "交流频道"
+	quest.5290582A3B583B32.quest_desc: ["结构罗盘搜索\"Ae\"，该结构含有一个\"神秘方块\"，一个\"创造能源元件\""]
+	quest.5290582A3B583B32.title: "访问水晶世界"
+	quest.58FA7C82CF350D3D.title: "&4你真的想继续?"
+	quest.59C414B6EE994D8B.quest_desc: ["可以使用合金生产气体以燃烧"]
+	quest.5BCFCD6BB6275098.quest_desc: ["你小子是不是开创了???"]
+	quest.5BCFCD6BB6275098.quest_subtitle: "但是为什么有创造能源元件?"
+	quest.5BCFCD6BB6275098.title: "古人遗骸"
+	quest.60C0685CA0459AF4.quest_desc: [
+		"&4此章节可能会有:恶意刁难,崩溃,抄袭,堆量,无意义配方"
+		"&e请做好准备"
+	]
+	quest.60C0685CA0459AF4.title: "&k注意"
+	quest.63F70BE3682C2700.quest_desc: ["&z欢迎回来,熟悉而又陌生的主世界"]
+	quest.683DE7A1DD737EBB.quest_desc: ["使用奇点块搭出下界门的样式，并使用奇点右键激活，进入水晶维度"]
+	quest.683DE7A1DD737EBB.quest_subtitle: "致敬CAB"
+	quest.684E0199E8D057BE.quest_desc: [
+		"感谢BiliBili陪我一路走来的粉丝"
+		"[ { \"text\": \"我的B站主页\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://space.bilibili.com/3461574498977936?spm_id_from=333.1007.0.0\" } } ]"
+	]
+	quest.684E0199E8D057BE.title: "鸣谢"
+	quest.697C19CF670EE37F.quest_desc: [""]
+	quest.697C19CF670EE37F.quest_subtitle: "是个专家包(也许吧)"
+	quest.697C19CF670EE37F.title: "关于难度"
+	quest.79BA3B8A2A2C6EE2.quest_desc: ["现在你可以将Mekanism的创造流体储罐,创造化学品储罐,创造箱柜作为磁盘插入ME驱动器中了,其会显示2.3E(没啥用,但是挺好玩)"]
+	quest.7BEC1D83AA784B91.quest_desc: ["用于增殖混凝土"]
+	quest.7EE9012FF2C04004.quest_desc: ["含量为0"]
+	quest.7F7F39749E990B1B.quest_desc: ["赛特斯水晶簇已添加配方，详见JEI"]
+	task.01CB4F9087CC4E76.title: "访问水晶世界"
+	task.1A4EF34EE7FAE786.title: "鸣谢"
+	task.1B66449EBC09CD5E.title: "稍作修改"
+	task.2767BB80152FC19C.title: "&4Yes,I'm"
+	task.30E937703491A919.title: "古人遗骸"
+	task.402D8B4F76BDC11A.title: "差不多得了!"
+	task.4A16265DDA138918.title: "差不多得了"
+	task.517F93216A1E8404.title: "&4ERROR"
+	task.55B89823BF4EFAB2.title: "观察锻炉"
+	task.616EFC324871448A.title: "&4你真的想继续?"
+}

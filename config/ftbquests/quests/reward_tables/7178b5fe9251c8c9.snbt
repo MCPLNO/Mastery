@@ -1,0 +1,31 @@
+{
+	id: "7178B5FE9251C8C9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "7CFAC87D58D24D2C"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+		}
+		{
+			count: 16
+			id: "1E1C6D416B194E74"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			count: 16
+			id: "529FA23D18320877"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+		}
+	]
+}

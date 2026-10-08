@@ -1,0 +1,11 @@
+{
+	id: "49BCF05C9FFC98CB"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "4C5333DFF5901AD7", item: { components: { "forbidden_arcanus:modifier": "forbidden_arcanus:demolishing", "minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.actuallyadditions.netherite_aiot\"}],\"translate\":\"modifier.forbidden_arcanus.demolishing\"}" }, count: 1, id: "actuallyadditions:netherite_aiot" } }
+		{ id: "29FE09CE5BE1308B", item: { components: { "forbidden_arcanus:modifier": "forbidden_arcanus:fiery", "minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.actuallyadditions.netherite_aiot\"}],\"translate\":\"modifier.forbidden_arcanus.fiery\"}" }, count: 1, id: "actuallyadditions:netherite_aiot" } }
+		{ id: "723CE5722A9EAEA9", item: { components: { "forbidden_arcanus:modifier": "forbidden_arcanus:soulbound", "minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.actuallyadditions.netherite_aiot\"}],\"translate\":\"modifier.forbidden_arcanus.soulbound\"}" }, count: 1, id: "actuallyadditions:netherite_aiot" } }
+		{ id: "591D9B0DBDB37C9C", item: { components: { "!minecraft:damage": { }, "!minecraft:max_damage": { }, "forbidden_arcanus:modifier": "forbidden_arcanus:eternal", "minecraft:item_name": "{\"extra\":[\" \",{\"translate\":\"item.actuallyadditions.netherite_aiot\"}],\"translate\":\"modifier.forbidden_arcanus.eternal\"}" }, count: 1, id: "actuallyadditions:netherite_aiot" } }
+	]
+}

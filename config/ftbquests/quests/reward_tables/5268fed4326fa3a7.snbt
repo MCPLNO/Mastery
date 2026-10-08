@@ -1,0 +1,23 @@
+{
+	id: "5268FED4326FA3A7"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "2A61104CD626D68B", item: { count: 1, id: "extendedae_plus:infinity_biginteger_cell" } }
+		{ id: "3D58C52F6D93315D", item: { count: 1, id: "infinitypattern:infinite_empty_pattern" } }
+		{ id: "57E12CC41D52D1FD", item: { components: { "ae2:energy_capacity": 4800000.0d, "ae2:stored_energy": 4800000.0d, "ae2wtlib:current_terminal": "crafting", "ae2wtlib:has_crafting_terminal": { }, "ae2wtlib:has_pattern_encoding_terminal": { }, "ae2wtlib:has_tianshu_pattern_encoding_terminal": { } }, count: 1, id: "ae2wtlib:wireless_universal_terminal" } }
+		{ id: "21FEE8669B502492", item: { count: 1, id: "ae2:creative_energy_cell" } }
+		{ id: "59C2D6F0E05AFD18", item: { count: 1, id: "aeinfinitybooster:infinity_card" } }
+		{
+			command: "/ae2 channelmode infinite"
+			id: "6DA38AC579F05B58"
+			type: "command"
+		}
+		{
+			advancement: "minecraft:story/root"
+			criterion: ""
+			id: "659999F9CC6402B0"
+			type: "advancement"
+		}
+	]
+}

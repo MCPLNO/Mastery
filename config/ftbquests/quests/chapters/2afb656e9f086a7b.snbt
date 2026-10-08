@@ -1,0 +1,451 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2afb656e9f086a7b"
+	group: "0947B4842269D4B3"
+	id: "2AFB656E9F086A7B"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35FD605E8848D404"]
+			id: "4D372BBAD4C8582A"
+			rewards: [
+				{
+					id: "1EAEEA00E0FDF52E"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "754A9485A631ABC2"
+					item: {
+						components: {
+							"ad_astra:fluids": [{
+								amount: 2000L
+								id: "ad_astra:oxygen"
+							}]
+						}
+						count: 1
+						id: "ad_astra:netherite_space_suit"
+					}
+					type: "item"
+				}
+				{
+					id: "5DBD983BA9D4905C"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "0E69B3933DF89836"
+					item: {
+						count: 1
+						id: "ad_astra:netherite_space_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D7E64BC025B863D"
+				item: { components: { "ad_astra:fluids": [{ amount: 0L, id: "minecraft:empty" }] }, count: 1, id: "ad_astra:tier_1_rocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D372BBAD4C8582A"]
+			id: "38A16D119A4E98C9"
+			tasks: [{
+				id: "6E76DC15261B460D"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D372BBAD4C8582A"]
+			id: "129F10168EA44A59"
+			tasks: [{
+				id: "563329A9984EF7C5"
+				item: { count: 1, id: "ad_astra:moon_sand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"38A16D119A4E98C9"
+				"129F10168EA44A59"
+			]
+			id: "7EE9012FF2C04004"
+			tasks: [{
+				id: "69F43277C4AF09C4"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38A16D119A4E98C9"]
+			id: "4983F2F56302CC32"
+			tasks: [{
+				id: "30EB68E4EF8603CA"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "6F5D73B5366AA3A9"
+			tasks: [{
+				id: "378330E5DADDD72B"
+				item: { count: 1, id: "ae2cs:crystal_aggregator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7EE9012FF2C04004"
+				"6F5D73B5366AA3A9"
+			]
+			id: "7F7F39749E990B1B"
+			tasks: [{
+				id: "24BF067E8F640409"
+				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4983F2F56302CC32"
+				"7F7F39749E990B1B"
+			]
+			id: "7D30ADD63445E4C3"
+			tasks: [
+				{
+					id: "079FD8DA2B40F545"
+					item: { components: { "packaged_faa:level_forge": { level: 3 } }, count: 1, id: "packaged_faa:hephaestus_packaged" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60F817F09BEC6B81"
+					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_3" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D30ADD63445E4C3"]
+			id: "5097F20C0EEDFE03"
+			tasks: [{
+				id: "0BC345292036B153"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5097F20C0EEDFE03"]
+			id: "5E0EC414C54FCB79"
+			tasks: [{
+				id: "4135D4D2F28D6CBF"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E0EC414C54FCB79"]
+			id: "364425D09D00AF59"
+			tasks: [{
+				id: "6204BA55B6F51011"
+				item: { count: 1, id: "createmoremachines:netherite_alloy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["364425D09D00AF59"]
+			hide_text_until_complete: false
+			id: "391857F0F216B65D"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3F62331C69E19D27"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["364425D09D00AF59"]
+			id: "5C1E39A15C0A7ADD"
+			tasks: [{
+				id: "6376BA407D0C34CA"
+				item: { count: 1, id: "avaritia:sculk_crafting_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C1E39A15C0A7ADD"]
+			id: "0CEBE37FF3133CA9"
+			tasks: [{
+				id: "06A3041A5491CC54"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CEBE37FF3133CA9"]
+			id: "4C80E7570B324999"
+			optional: true
+			progression_mode: "linear"
+			tasks: [
+				{
+					id: "4E57B01CCF9DC08D"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A9ABD5B0919C22C"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0CEBE37FF3133CA9"]
+			id: "378E1D0FE117E905"
+			tasks: [{
+				id: "45858812BEF62864"
+				item: { count: 1, id: "powah:charged_snowball" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["378E1D0FE117E905"]
+			id: "262CFD73B7BE0297"
+			tasks: [
+				{
+					id: "7CB3B4892413AD33"
+					item: { count: 1, id: "ae2lt:cracked_budding_overload_crystal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5635BFF9E43E803C"
+					item: { count: 1, id: "ae2lt:damaged_budding_overload_crystal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17C178F96F3B8BE4"
+					item: { count: 1, id: "ae2lt:flawless_budding_overload_crystal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FF8DE0171723B7C"
+					item: { count: 1, id: "ae2lt:flawed_budding_overload_crystal" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["262CFD73B7BE0297"]
+			id: "28FD0CA7633B3ED7"
+			tasks: [{
+				id: "1A52BA79A3FEC634"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28FD0CA7633B3ED7"]
+			id: "2D2016BE97CDE83D"
+			tasks: [{
+				id: "0ADCBB18E2288310"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D2016BE97CDE83D"]
+			id: "4E72341FABCD3CDD"
+			tasks: [
+				{
+					id: "50AE91EE0E5FB847"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "0E695E2F52EA2922"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					id: "3689CB29E753F711"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E72341FABCD3CDD"]
+			id: "6D69A1B9C69B30B1"
+			tasks: [{
+				id: "0BE4962A64F979FE"
+				item: { count: 1, id: "mekanism:pellet_plutonium" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D69A1B9C69B30B1"]
+			id: "44E22EA963477473"
+			tasks: [{
+				id: "6FDA64BC3AD3EFED"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44E22EA963477473"]
+			id: "7C5E0550C38FEF1A"
+			tasks: [{
+				id: "3CCE1F572F57F0AF"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C5E0550C38FEF1A"]
+			id: "2C7D00FA07B1BC50"
+			optional: true
+			tasks: [{
+				id: "1E2B7C30730B1283"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C5E0550C38FEF1A"]
+			id: "6837B208855F141B"
+			size: 2.0d
+			tasks: [{
+				id: "54600AAF450837F4"
+				item: { count: 1, id: "avaritia:nether_crafting_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D2016BE97CDE83D"]
+			id: "61B6588CCE885A7C"
+			tasks: [{
+				id: "552DE72879F9BF41"
+				item: { count: 1, id: "jdte:greenhouse" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6837B208855F141B"]
+			id: "0C884A41966593D6"
+			optional: true
+			tasks: [{
+				id: "5CA3F37FA86AE10D"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6837B208855F141B"]
+			icon_scale: 2.0d
+			id: "065AC506567CB1A2"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "45F9B4EBC95FAA5B"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["065AC506567CB1A2"]
+			id: "51D7AE7AC7CDF4BD"
+			tasks: [{
+				id: "01FD5928107463B5"
+				item: { count: 1, id: "extendedae_plus:infinity_core" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5097F20C0EEDFE03"]
+			id: "16CAFE3F86AF1C95"
+			tasks: [{
+				id: "17158CEAD52E2187"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}
