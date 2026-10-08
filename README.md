@@ -1,5 +1,4 @@
-# Mastery
-From a single block of concrete to an AE2 network—a hardcore 1.21.1 NeoForge modpack where tech and magic alternate. No sieves, no ex nihilo. Early development.
+# MasteryAE
 
 你在一格混凝土上醒来。没有树，没有矿，没有筛子。
 
@@ -17,6 +16,8 @@ From a single block of concrete to an AE2 network—a hardcore 1.21.1 NeoForge m
 
 你真的逃出来了吗？还是只是进入了一座更大的岛？
 
+---
+
 You wake up on a single block of concrete. No trees. No ores. No sieves.
 
 All you have is a Tier 1 Hephaestus Forge and two colors of concrete: white and light gray. That's it. That's your entire world.
@@ -32,11 +33,49 @@ Yes. Oak logs. The most ordinary block in Minecraft is your endgame material.
 You escape the void island. You step into a new dimension. And then you ask yourself:
 
 Did you really escape? Or did you just enter a bigger island?
-状态 / Status：早期开发中 / Early development
-版本 / Version：1.21.1 NeoForge
-核心模组 / Core mods：Mekanism、Create、Occultism、Forbidden Arcanus、Ars Nouveau、AE2 + ExtendedAE + AdvancedAE + AE2 Lightning Tech + AE2 Crystal Science、ExtendedCrafting、Avaritia
-不含 / Not included：Ex Nihilo、ProjectE，以及任何“筛矿模拟器”机制 / Ex Nihilo, ProjectE, any "sieving simulator" mechanics
+
+---
+
+## 关于本仓库 / About This Repository
+
+本仓库**不是完整整合包**，仅开源整合包中经过定制的配置文件，供学习、参考与版本追踪。
+
+This repository is **not the full modpack**. It only contains the customized configuration files, open-sourced for reference and version tracking.
+
+### 包含内容 / Included
+
+- `config/ftbquests/` — FTB Quests 任务线
+- `config/fancymenu/` — FancyMenu 主菜单定制
+- 空岛建立者相关配置 / Skyblock builder configuration
+
+其余模组均为默认配置，未包含在本仓库中。
+
+All other mods use default configurations and are not included here.
+
+### 下载整合包 / Download the Modpack
+
+- CurseForge：[https://www.curseforge.com/minecraft/modpacks/mastery]
+- GitHub Releases：[...]
+
+---
+
+**状态 / Status**：早期开发中 / Early development
+**版本 / Version**：1.21.1 NeoForge
+**核心模组 / Core mods**：Mekanism、Create、Occultism、Forbidden Arcanus、Ars Nouveau、AE2 + ExtendedAE + AdvancedAE + AE2 Lightning Tech + AE2 Crystal Science、ExtendedCrafting、Avaritia
+**不含 / Not included**：Ex Nihilo、ProjectE，以及任何“筛矿模拟器”机制 / Ex Nihilo, ProjectE, any "sieving simulator" mechanics
 
 想帮忙测试？私信我。带上耐心，带上笔记本。两样你都会用到。
 
 If you want to help test, DM me. Bring patience. Bring a notebook. You'll need both.
+
+---
+
+## 致谢 / Credits
+
+本整合包包含众多模组作者的劳动成果，感谢所有模组、资源包与光影的作者。完整模组列表请见 CurseForge 页面。
+
+This modpack includes the work of many mod authors. Thanks to all mod, resource pack, and shader creators. See the CurseForge page for the full mod list.
+
+## 许可证 / License
+
+[你的协议]
