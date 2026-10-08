@@ -32,3 +32,11 @@ Yes. Oak logs. The most ordinary block in Minecraft is your endgame material.
 You escape the void island. You step into a new dimension. And then you ask yourself:
 
 Did you really escape? Or did you just enter a bigger island?
+状态 / Status：早期开发中 / Early development
+版本 / Version：1.21.1 NeoForge
+核心模组 / Core mods：Mekanism、Create、Occultism、Forbidden Arcanus、Ars Nouveau、AE2 + ExtendedAE + AdvancedAE + AE2 Lightning Tech + AE2 Crystal Science、ExtendedCrafting、Avaritia
+不含 / Not included：Ex Nihilo、ProjectE，以及任何“筛矿模拟器”机制 / Ex Nihilo, ProjectE, any "sieving simulator" mechanics
+
+想帮忙测试？私信我。带上耐心，带上笔记本。两样你都会用到。
+
+If you want to help test, DM me. Bring patience. Bring a notebook. You'll need both.
