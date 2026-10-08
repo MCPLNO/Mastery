@@ -1,0 +1,30 @@
+{
+  "category": "pentacles",
+  "icon": {
+    "item": "mastery:112233"
+  },
+  "name": "mastery.112233.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "text": "mastery.112233.text",
+      "title": "mastery.112233.name"
+    },
+    {
+      "type": "modonomicon:multiblock",
+      "multiblock_id": "occultism:112233",
+      "multiblock_name": "mastery.112233.name",
+      "show_visualize_button": true
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "rituals",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "x": 0,
+  "y": 0
+}

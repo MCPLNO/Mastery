@@ -1,0 +1,56 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "a": { "type": "modonomicon:block", "block": "createmoremachines:beyond_casing" },
+    "b": { "type": "modonomicon:block", "block": "ae2omnicells:singularity_block" },
+    "c": { "type": "modonomicon:block", "block": "create:andesite_casing" },
+    "d": { "type": "modonomicon:block", "block": "avaritia:neutron" },
+    "e": { "type": "modonomicon:block", "block": "mysticalagradditions:insanium_coal_block" },
+    "f": { "type": "modonomicon:block", "block": "mysticalagradditions:insanium_block" },
+    "g": { "type": "modonomicon:block", "block": "mysticalagradditions:insanium_ingot_block" },
+    "h": { "type": "modonomicon:block", "block": "mysticalagradditions:insanium_gemstone_block" },
+    "i": { "type": "modonomicon:block", "block": "ae2:creative_energy_cell" },
+    "j": { "type": "modonomicon:block", "block": "ae2lt:pigmee_fumo" },
+    "k": { "type": "modonomicon:block", "block": "occultism:sacrificial_bowl" },
+    "K": { "type": "modonomicon:block", "block": "occultism:sacrificial_bowl" },
+    "0": {
+      "type": "modonomicon:tag",
+      "display": "occultism:golden_sacrificial_bowl",
+      "tag": "#occultism:center_sacrificial_bowl"
+    },
+    "W": {
+      "type": "modonomicon:tag",
+      "display": "occultism:chalk_glyph_rainbow",
+      "tag": "#occultism:foundation_glyphs_any"
+    },
+    "_": { "type": "modonomicon:block", "block": "minecraft:air" }
+  },
+  "pattern": [
+    [
+      "___________",
+      "_W_______W_",
+      "___________",
+      "___Wjjj____",
+      "______jK___",
+      "____0_jK___",
+      "______jK___",
+      "___Wjjj____",
+      "___________",
+      "_W_______W_",
+      "___________"
+    ],
+    [
+      "iajjjjjjjai",
+      "aibbbbbbbia",
+      "jbidjjjdbij",
+      "jbidididbij",
+      "jiddbbbddij",
+      "jiddbbbddij",
+      "jiddbbbddij",
+      "jbidididbij",
+      "jbidjjjdbij",
+      "aibbbbbbbia",
+      "iajjjjjjjai"
+    ]
+  ]
+}

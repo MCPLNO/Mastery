@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "masterycore:crystal_biome",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "start_pool": "masterycore:ae",
+  "size": 1,
+  "start_height": {
+    "absolute": 64
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "terrain_adaptation": "beard_thin"
+}

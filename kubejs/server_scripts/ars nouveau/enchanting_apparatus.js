@@ -1,0 +1,14 @@
+ServerEvents.recipes(event=>{
+    event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+        "ars_nouveau:earth_essence",
+        "ars_nouveau:abjuration_essence",
+        "ars_nouveau:conjuration_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:air_essence"
+    ],
+    "ars_nouveau:shapers_focus",
+    "ars_nouveau:summon_focus",
+    100000
+).id("mastery:recipes/ars_nouveau/enchanting_apparatus/summon_focus")
+})
