@@ -55,7 +55,7 @@ All other mods use default configurations and are not included here.
 ### 下载整合包 / Download the Modpack
 
 - CurseForge：[https://www.curseforge.com/minecraft/modpacks/mastery]
-- GitHub Releases：[...]
+- GitHub Releases：[https://github.com/MCPLNO/Mastery/releases]
 
 ---
 
