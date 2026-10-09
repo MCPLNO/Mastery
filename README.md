@@ -78,4 +78,4 @@ This modpack includes the work of many mod authors. Thanks to all mod, resource 
 
 ## 许可证 / License
 
-[你的协议]
+[MIT]
